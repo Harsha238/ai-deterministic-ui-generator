@@ -79,6 +79,18 @@ Responsibilities:
 
 ---
 
+### Example prompts
+1.simple dashboard with navbar
+2.login page with email password and submit button
+3.simple sidebar navigation to dashboard
+4.add project table to dashboard
+5.add analytics chart to dashboard
+6.simple login modal with submit button
+7.add card with welcome message
+8.create dashboard with navbar sidebar table and chart
+
+---
+
 ## Component System Design
 
 The system uses a fixed deterministic component library.
