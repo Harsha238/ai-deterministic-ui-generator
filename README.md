@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
-=======
+
 # AI Deterministic UI Generator
 >>>>>>> 1dbeef23ae75b2c4b8dddf245861d44b4ed9ec11
 
