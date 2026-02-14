@@ -1,40 +1,203 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+=======
+# AI Deterministic UI Generator
+>>>>>>> 1dbeef23ae75b2c4b8dddf245861d44b4ed9ec11
 
-## Getting Started
+## Overview
 
-First, run the development server:
+This project is an AI-powered deterministic UI generator that converts natural language prompts into working React UI using a fixed, deterministic component library.
 
-```bash
+The system follows a structured agent architecture inspired by Claude-Code style UI generation, ensuring predictable, safe, and reproducible UI output.
+
+Users can:
+
+• Describe UI in natural language
+• Generate working UI instantly
+• Modify UI incrementally
+• See live preview
+• Understand AI decisions
+
+---
+
+## Agent Architecture
+
+The system uses a 3-step agent pipeline:
+
+### 1. Planner
+
+Purpose: Interpret user intent and select appropriate components.
+
+Input:
+Natural language prompt
+
+Output:
+Structured plan containing selected components and layout intent.
+
+Responsibilities:
+
+• Intent interpretation
+• Component selection
+• Layout planning
+
+---
+
+### 2. Generator
+
+Purpose: Convert structured plan into deterministic UI tree.
+
+Responsibilities:
+
+• Uses only allowed components
+• Prevents duplicate components
+• Preserves existing UI during updates
+• Generates structured UI tree
+
+Output Example:
+
+Page
+├ Navbar
+├ Sidebar
+├ Card
+└ Button
+
+---
+
+### 3. Explainer
+
+Purpose: Explain AI decisions transparently.
+
+Example output:
+
+Navbar added for navigation
+Table added for structured data display
+
+Responsibilities:
+
+• Identify added components
+• Explain reasoning
+• Improve transparency
+
+---
+
+## Component System Design
+
+The system uses a fixed deterministic component library.
+
+Allowed components:
+
+Navbar
+Sidebar
+Card
+Button
+Input
+Table
+Chart
+Modal
+
+Constraints enforced:
+
+• No dynamic component creation
+• No external UI libraries
+• No arbitrary styling generation
+• Only predefined components allowed
+
+This ensures deterministic and safe UI generation.
+
+---
+
+## Technical Architecture
+
+Frontend:
+Next.js (React)
+
+Backend:
+Next.js API Routes
+
+Language:
+TypeScript
+
+Deployment:
+Vercel
+
+---
+
+## Deterministic Rendering
+
+The generator produces a structured UI tree.
+
+Renderer converts the tree into React components recursively.
+
+This ensures:
+
+• Predictable UI
+• Safe generation
+• Consistent output
+
+---
+
+## Known Limitations
+
+• Basic layout intelligence
+• No persistent storage
+• Limited styling
+• Rule-based planning instead of full LLM reasoning
+
+---
+
+## Improvements With More Time
+
+• Add version history and rollback
+• Integrate full LLM planner
+• Add diff view between versions
+• Improve layout intelligence
+• Add persistent database
+• Enhance styling system
+
+---
+
+## Local Setup
+
+Install dependencies:
+
+npm install
+
+Run development server:
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open browser:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+http://localhost:3000
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## Deployment
 
-To learn more about Next.js, take a look at the following resources:
+The application is deployed using Vercel.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Assignment Coverage
 
-## Deploy on Vercel
+Planner agent implemented
+Generator agent implemented
+Explainer agent implemented
+Deterministic component system implemented
+Live preview supported
+Incremental updates supported
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
+<<<<<<< HEAD
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 =======
 # ai-deterministic-ui-generator
 >>>>>>> df4eb7aa9c4ad904e18ff90a008d8363221e0a5e
+=======
+## Author
+
+KUMMARI SAI HARSHITHA
+AI Deterministic UI Generator – Ryze AI Assignment
+>>>>>>> 1dbeef23ae75b2c4b8dddf245861d44b4ed9ec11
