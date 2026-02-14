@@ -178,12 +178,12 @@ The application is deployed using Vercel.
 
 ## Assignment Coverage
 
-Planner agent implemented
-Generator agent implemented
-Explainer agent implemented
-Deterministic component system implemented
-Live preview supported
-Incremental updates supported
+- Planner agent implemented
+- Generator agent implemented
+- Explainer agent implemented
+- Deterministic component system implemented
+- Live preview supported
+- Incremental updates supported
 
 ---
 
