@@ -187,14 +187,8 @@ Incremental updates supported
 
 ---
 
-<<<<<<< HEAD
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-=======
-# ai-deterministic-ui-generator
->>>>>>> df4eb7aa9c4ad904e18ff90a008d8363221e0a5e
-=======
-## Author
+
 
 KUMMARI SAI HARSHITHA
 AI Deterministic UI Generator – Ryze AI Assignment
->>>>>>> 1dbeef23ae75b2c4b8dddf245861d44b4ed9ec11
+
