@@ -205,15 +205,15 @@ export default function Home() {
 
 
       {/* MAIN */}
-      <div className="flex flex-col flex-1 overflow-hidden gap-3">
+      <div className="flex flex-col flex-1 overflow-auto gap-3">
 
 
         {/* TOP */}
-        <div className="flex gap-3 flex-[0.55] overflow-hidden">
+        <div className="flex flex-col md:flex-row gap-3 flex-[0.55] overflow-auto">
 
 
           {/* CHAT */}
-          <div className="w-1/3 bg-white border rounded p-3 flex flex-col overflow-hidden">
+          <div className="w-full md:w-1/3 bg-white border rounded p-3 flex flex-col overflow-auto">
 
             <h2 className="font-bold mb-2 text-black">Chat</h2>
 
@@ -242,7 +242,7 @@ export default function Home() {
 
 
           {/* PREVIEW */}
-          <div className="w-1/3 bg-white border rounded p-3 flex flex-col overflow-hidden">
+          <div className="w-full md:w-1/3 bg-white border rounded p-3 flex flex-col overflow-auto">
 
             <h2 className="font-bold text-black">
               Live Preview
@@ -275,7 +275,8 @@ export default function Home() {
 
 
           {/* JSON */}
-          <div className="w-1/3 bg-white border rounded p-3 flex flex-col overflow-hidden">
+          <div className="w-full md:w-1/3 bg-white border rounded p-3 flex flex-col overflow-auto">
+
 
             <h2 className="font-bold mb-2 text-black">
               JSON Editor
@@ -308,11 +309,11 @@ export default function Home() {
 
 
         {/* BOTTOM */}
-        <div className="flex gap-3 flex-[0.45] overflow-hidden">
+        <div className="flex flex-col md:flex-row gap-3 flex-[0.45] overflow-auto">
 
 
           {/* EXPLANATION */}
-          <div className="w-1/2 bg-white border rounded p-3 flex flex-col overflow-hidden">
+          <div className="w-full md:w-1/2 bg-white border rounded p-3 flex flex-col overflow-auto">
 
             <h2 className="font-bold mb-2 text-black">
               Explanation
@@ -329,7 +330,8 @@ export default function Home() {
 
 
           {/* HISTORY */}
-          <div className="w-1/2 bg-white border rounded p-3 flex flex-col overflow-hidden">
+          <div className="w-full md:w-1/2 bg-white border rounded p-3 flex flex-col overflow-auto">
+
 
             <div className="flex justify-between mb-2">
 
