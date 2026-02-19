@@ -203,5 +203,5 @@ The application is deployed using Vercel.
 
 
 KUMMARI SAI HARSHITHA
-AI Deterministic UI Generator – Ryze AI Assignment
+AI Deterministic UI Generator 
 
